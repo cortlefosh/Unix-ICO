@@ -1,0 +1,259 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/* CSS Document */
+
+/* body (all devices) */
+		body {
+			background-color: #FFFFFF;
+			font-family: 'Oswald', sans-serif;
+		}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	
+	
+	/* menu */
+		/*frame*/
+			#menu {
+				height: 90%;
+				width: 96%;
+				top: 5%;
+				left: 2%;
+				position: fixed;
+			}
+			#ico_link {
+				height: 60px;
+				width: 60px;
+				top: -2px;
+				right: -2px;
+				position: absolute;
+			}	
+			#info_link {
+				height: 60px;
+				width: 60px;
+				top: -2px;
+				left: -2px;
+				position: absolute;
+			}
+			#info_link, #ico_link, #menu {
+				border-color: #000000;
+				border-width: 2px;
+				border-style: solid;
+				z-index: 1;
+			}
+		/*aside links*/
+			/*closed*/
+				#ico_icon_closed, #info_icon_closed {
+					width: 40px;
+					height: 40px;
+					position: absolute;
+					z-index: 1;
+					cursor: pointer;
+				}
+				#info_icon_closed, #info_icon_opened {
+					top: 10px;
+					left: 10px;
+				}
+				#ico_icon_closed, #ico_icon_opened {
+					top: 10px;
+					right: 10px;
+				}
+			/*opened*/
+				#ico_icon_opened, #info_icon_opened {
+					width: 0px;
+					height: 40px;
+					position: absolute;
+					z-index: 1;
+					cursor: pointer;
+				}
+		/*navigation*/
+			#navigation {
+				list-style: none;
+				position: absolute;
+				right: 1%;
+				top: 20%;
+			}
+			.navigation {
+				text-align: right;
+				padding: 5px;
+			}
+			.navbullet {
+				width: 30px;
+				vertical-align: -8px;
+			}
+		/*social media links*/
+			#socialmedia {
+				list-style: none;
+				position: absolute;
+				left: -1%;
+				bottom: -1%;
+			}
+			.socialmedia {
+				padding-right: 40px;
+				display: inline;
+			}
+			.socialmediaicon {
+				width: 30px;
+				height: 30px;
+			}
+		/*email*/
+			#email_icon {
+				width: 40px;
+				position: absolute;
+				right: 2%;
+				bottom: 2%;
+			}
+		
+	/* slide_info */
+		#slide_info {
+			background-color: grey;
+			position: fixed;
+			top: 0px;
+			bottom: 0px;
+			left: 0px;
+			width: 0px;
+			heigth: 100%;
+			display: none;
+		}
+	
+	/* slide_ico */
+		#slide_ico {
+			background-color: grey;
+			position: fixed;
+			top: 0px;
+			bottom: 0px;
+			right: 0px;
+			width: 0px;
+			heigth: 100%;
+			display: none;
+		}
+	
+	/*articles*/
+		.article {
+			position: absolute;
+			height: 60%;
+			left: 15%;
+			right: 15%;
+			width: 70%;
+			background-color: grey;
+			display: block;
+		}
+		/*start*/
+			#start {
+				top: 20%;
+			}
+		/*intro*/
+			#intro {
+				top: 100%;
+			}
+		/*network*/
+			#net {
+				top: 180%;
+			}
+		/*currency*/
+			#cur {
+				top: 260%;
+			}
+		/*possibilities*/
+			#pos {
+				top: 340%;
+			}
+		/*roadmap*/
+			#road {
+				top: 420%;
+			}
+		/*ico*/
+			#ico {
+				top: 500%;
+			}
+		/*contact*/
+			#con {
+				top: 580%;
+				height: 40%;
+			}
+	
+	body{
+		margin-bottom: 20%;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
